@@ -1,0 +1,5 @@
+addition and subtraction are fundamental computer operations
+a+=2 and addition loops are compound operations
+A compiler converts user-written code into a form that can be understood by the computer.
+Constants are useful as their values don't change.
+
