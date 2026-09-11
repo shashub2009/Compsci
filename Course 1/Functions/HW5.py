@@ -1,11 +1,7 @@
 def REMOVE(ORIG, X, OUT):
-    for i in range(len(ORIG)):
-        print(i)
-        if ORIG[9-i] == X:
-            ORIG.remove(len(ORIG)-i)
-            ORIG.append(0)
-        else:
-            continue
+    while X in ORIG:
+        ORIG.remove(X)
+        ORIG.append(0)
     OUT = ORIG
     return OUT
 
