@@ -1,7 +1,8 @@
 def iterate(f,x,n):
     lst = []
     for i in range(1,n+1):
-        lst.append(f(x)**i)
+        x = f(x)
+        lst.append(x)
     return lst
 
 def a(x):
