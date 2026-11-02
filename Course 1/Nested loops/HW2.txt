@@ -1,0 +1,13 @@
+Checks if two lists have any same elements
+
+"in" can be used instead
+
+flag = False
+lst = [1,2,3,4,5]
+lst2 = [3,4,5,6,7]
+
+for i in list2:
+    if i in lst:
+        flag = True
+
+print(flag)
